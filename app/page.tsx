@@ -42,7 +42,7 @@ export default function Home() {
           <h1 className="text-3xl font-bold text-gray-900 mb-2 text-center">
             Event Scan Statistics
           </h1>
-          <p className="text-gray-600 text-center mb-6">Event ID: 114879</p>
+          <p className="text-gray-600 text-center mb-6">Event ID: 115297</p>
 
           {loading && (
             <div className="text-center py-8">
@@ -93,8 +93,7 @@ export default function Home() {
               <div className="mt-6 text-center">
                 <button
                   onClick={fetchData}
-                  className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-                >
+                  className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
                   Refresh
                 </button>
               </div>

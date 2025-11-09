@@ -14,7 +14,7 @@ export async function GET() {
         SUM(arrived) AS scan_count,
         SUM(guests) AS total_attendee_count
       FROM event_attendees ea
-      WHERE event_id = 114879 AND deleted_at IS NULL`
+      WHERE event_id = 115297 AND deleted_at IS NULL`
     );
 
     const endTime = performance.now();
