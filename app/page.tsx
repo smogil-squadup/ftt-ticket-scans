@@ -42,7 +42,7 @@ export default function Home() {
           <h1 className="text-3xl font-bold text-gray-900 mb-2 text-center">
             Event Scan Statistics
           </h1>
-          <p className="text-gray-600 text-center mb-6">Event ID: 115297</p>
+          <p className="text-gray-600 text-center mb-6">Event ID: 115298</p>
 
           {loading && (
             <div className="text-center py-8">
